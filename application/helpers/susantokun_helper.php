@@ -1,22 +1,5 @@
 <?php
 
-/*
- * |==============================================================|
- * | Please DO NOT modify this information :                      |
- * |--------------------------------------------------------------|
- * | Author          : Susantokun
- * | Email           : admin@susantokun.com
- * | Filename        : susantokun_helper.php
- * | Instagram       : @susantokun
- * | Blog            : http://www.susantokun.com
- * | Info            : http://info.susantokun.com
- * | Demo            : http://demo.susantokun.com
- * | Youtube         : http://youtube.com/susantokun
- * | File Created    : Thursday, 12th March 2020 10:34:33 am
- * | Last Modified   : Thursday, 12th March 2020 10:57:53 am
- * |==============================================================|
- */
-
 function konfigurasi($title, $c_des=null)
 {
     $CI = get_instance();
