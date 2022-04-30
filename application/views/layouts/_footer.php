@@ -1,9 +1,13 @@
-<footer class="main-footer">
-	<div class="pull-right hidden-xs">
-		<?php if (ENVIRONMENT=='development'): ?>
-		<b>CodeIgniter</b> <?php echo CI_VERSION; ?>
-		<b>AdminLTE</b> 2.4.3
-		<?php endif; ?>
+<!-- footer start-->
+<footer class="footer">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-6 footer-copyright">
+				<p class="mb-0">Copyright <?php echo date('Y').'-'.date('y', strtotime('+1 year')); ?> © SplitSide All rights reserved.</p>
+			</div>
+			<div class="col-md-6">
+				<p class="pull-right mb-0">Hand crafted & made with <i class="fa fa-heart font-secondary"></i></p>
+			</div>
+		</div>
 	</div>
-	<strong>Copyright &copy; 2014-2019 <a href="https://adminlte.io">AdminLTE</a>.</strong> All rights reserved.
 </footer>
